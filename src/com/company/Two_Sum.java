@@ -40,7 +40,7 @@ public class Two_Sum {
         }
     }
 
-    // Here is another solution i got from Stack Overflow and i would try my best to simplify it i coming days
+    // Here is another solution i got from Stack Overflow and i would try my best to simplify it in the coming days
 
     public int[] twoSum(int[] nums, int target) {
         if(nums==null || nums.length<2)

@@ -11,6 +11,14 @@ import java.util.Map;
 
 public class Roman_to_Integer {
 
+    /*
+        To solve this problem we create an HahMap, then we fill the map with all respective values of the roman numerals and their corresponding Integer values
+        then we get the length of the String we are to solve for,
+        create a new field to store the result
+        then we make a for loop to go through each characters from left to right,
+        then after checking the size of the integer we can finally return the integer corresponding to the Roman TestCase
+     */
+
     class Solution {
         public int romanToInt(String s) {
             // Map to store romans numerals
